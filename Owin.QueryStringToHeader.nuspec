@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Owin.QueryStringToHeader</id>
+        <version>1.0.0</version>
+        <title>Owin.QueryStringToHeader</title>
+        <authors>vqcomms</authors>
+        <owners>vqcomms</owners>
+        <licenseUrl>https://github.com/VQComms/Owin.QueryStringToHeader/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/VQComms/Owin.QueryStringToHeader</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A simple owin middleware component to turn a querystring parameter into a request header. This is useful when using token authentication with signalR.</description>
+        <copyright />
+        <tags>owin, https, auth, authorization</tags>
+    </metadata>
+    <files>
+        <file src="src\Owin.QueryStringToHeader\bin\Release\Owin.QueryStringToHeader.dll" target="lib\net45\Owin.QueryStringToHeader.dll" />
+    </files>
+</package>
