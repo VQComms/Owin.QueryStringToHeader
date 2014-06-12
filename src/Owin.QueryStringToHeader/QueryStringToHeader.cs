@@ -22,11 +22,6 @@
 
         public Task Invoke(IDictionary<string, object> environment)
         {
-            if (!environment.ContainsKey("owin.RequestPath"))
-            {
-                throw new ApplicationException("Invalid OWIN request. Expected owin.RequestPath, but not present.");
-            }
-
             var querystring = (string)environment["owin.RequestQueryString"];
 
             // If no query string authorization value is set, nothing we can do
