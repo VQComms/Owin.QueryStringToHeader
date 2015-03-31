@@ -7,7 +7,7 @@ A simple owin middleware component to turn a querystring parameter into a reques
 Usage:
 ====
 
-app.QueryStringToHeader()
+`app.QueryStringToHeader()`
 
 
 Defaults:
